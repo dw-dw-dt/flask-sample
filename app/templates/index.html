@@ -9,13 +9,13 @@
 
   <table border="1">
     <tr>
-      <th>タイトル</th>
-      <th>金額</th>
+      <th>ファイル名</th>
+      <th>リンク</th>
     </tr>
-    {% for book in books %}
+    {% for file in files %}
       <tr>
-        <td>{{book.title}}</td>
-        <td>{{book.price}}</td>
+        <td>{{file.title}}</td>
+        <td>{{file.link}}</td>
       </tr>>
     {% endfor %}
   </table>
